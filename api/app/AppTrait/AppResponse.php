@@ -83,13 +83,12 @@ trait AppResponse {
      *
      * @return \Illuminate\Http\JsonResponse The JSON-response with the message
      */
-    public function respondWithSuccess($message,$data =[], $headers = [ ])
+    public function respondWithSuccess($message,$data = null, $headers = [ ])
     {
         return $this->respond([
-            'success' => [
-                'message'     => $message,
-                'status_code' => $this->getStatusCode()
-            ],
+            'status' =>true,
+            'status_code' => $this->getStatusCode(),
+            'message' => $message,
             'data' => $data
         ], $headers);
     }
@@ -106,10 +105,9 @@ trait AppResponse {
     public function respondWithError($message,$data= null, $headers = [ ])
     {
         return $this->respond([
-            'error' => [
-                'message'     => $message,
-                'status_code' => $this->getStatusCode()
-            ],
+            'status' => false,
+            'message' => $message,
+            'status_code' => $this->getStatusCode(),
             'data' => $data
         ], $headers);
     }
