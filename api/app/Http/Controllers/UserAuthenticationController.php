@@ -17,7 +17,7 @@ class UserAuthenticationController extends Controller{
             $user = Auth::user();
             $access_token = $user->createToken('kibb-bezop')->accessToken;
             $this->setStatusCode(200);
-            return $this->respondWithSuccess('Access Granted', ['access_token'=>$access_token]);
+            return $this->respondWithSuccess('Access Granted', ['access_token'=>$access_token,'user'=>$user]);
         }else{
             return $this->respondWithError('Access Denied');
         }
