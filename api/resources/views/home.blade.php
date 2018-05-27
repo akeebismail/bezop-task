@@ -17,6 +17,18 @@
                     You are logged in!
                 </div>
             </div>
+            <div class="card">
+                <div class="card-header">
+                    Upload files
+                </div>
+                <div class="card-body">
+                    <form method="post" action="{{route('t-upload')}}" enctype="multipart/form-data">
+                        {{csrf_field()}}
+                        <input type="file" multiple name="filename[]">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>

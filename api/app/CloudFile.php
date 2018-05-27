@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class CloudFile extends Model
 {
     use SoftDeletes;
+
 }

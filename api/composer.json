@@ -53,8 +53,8 @@
         ],
         "post-install-cmd" : [
             "chmod -R 755 bootstrap\\\/cache",
-            "php artisan migrate",
-            "php artisan passport:install"
+            "php artisan migrate --force",
+            "php artisan passport:install --force"
         ]
     },
     "config": {

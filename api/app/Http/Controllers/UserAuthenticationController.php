@@ -27,11 +27,13 @@ class UserAuthenticationController extends Controller{
         $this->validate($request,[
             'name' =>'required',
             'email' => 'required|unique:users',
-            'password' => 'required'
+            'password' => 'required',
+            'username' => 'required|unique:users'
         ]);
         $user = new User();
         $user->name = $request->name;
         $user->email = $request->email;
+        $user->username = $request->username;
         $user->password = bcrypt($request->password);
         if ($user->save()){
             if( auth()->attempt(['email'=>$request->email,'password'=>$request->password])) {

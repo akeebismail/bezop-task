@@ -16,8 +16,13 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::group(['middleware'=>'auth:api'], function (){
+    Route::post('name-upload','FileController@uploadFile')->name('t-upload');
+    Route::get('get-files-count','FileController@getFileCount');
+});
 Route::post('login','UserAuthenticationController@userLogin');
 Route::post('register','UserAuthenticationController@userRegister');
 Route::post('logout','UserAuthenticationController@userLogout');
 Route::post('refresh','UserAuthenticationController@refresh');
+
 
