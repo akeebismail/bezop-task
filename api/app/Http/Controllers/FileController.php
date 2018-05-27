@@ -3,11 +3,17 @@
 namespace App\Http\Controllers;
 
 use App\CloudFile;
+use Illuminate\Contracts\Filesystem\Cloud;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
 class FileController extends Controller
 {
+    public function makeFolder($name, $username= null){
+        $disk = Storage::disk('gcs');
+        $path = $username ? $name.'/'.$username : $name;
+        return $disk->makeDirectory($path);
+    }
     public function uploadFile(Request $request){
 
         $this->validate($request,[
@@ -25,6 +31,7 @@ class FileController extends Controller
                 $put =$disk->put($dir.'/'.$name,file_get_contents($item->getRealPath()));
                 if ($put){
                     $c_file = new CloudFile();
+                    $c_file->name = $name;
                     $c_file->user_id = $user->id;
                     $c_file->active = true;
                     $c_file->file_path = $disk->url($dir.'/'.$name);
@@ -44,31 +51,39 @@ class FileController extends Controller
     public function getFileCount(){
         $user = auth()->user();
         $cloud = CloudFile::where('user_id', $user->id);
-        if (request()->exists('q') && request()->get('q')== 'active'){
-           $cloud->where('active',true);
-        }
-        elseif (request()->exists('q') && request()->exists('q')== 'trash'){
-            $cloud->where('active',false);
-        }
+        $active = $cloud->where('active',true)->count();
+        $trash = $cloud->where('active',true)->onlyTrashed()->count();
 
-        return $this->respondWithSuccess('Files details',['file_count'=>$cloud->count()]);
+        return $this->respondWithSuccess('Files details',[
+            'active'=>$active,'trash'=>$trash]);
     }
 
-    public function getAllFiles($dir = null){
+    public function getAllFiles(){
+        $user = auth()->user();
+        $cloud = CloudFile::where('user_id', $user->id);
+        $active = $cloud->where('active',true)->get();
+        $trash = $cloud->where('active',true)->onlyTrashed()->get();
 
+        return $this->respondWithSuccess('Files details',[
+            'active'=>$active,'trash'=>$trash]);
     }
 
-    public function deleteFile($id){
-
+    public function deleteFile(Request $request){
+        $this->validate($request,[
+            'id' => 'required'
+        ]);
+        $id = $request->id;
+        if (is_array($id)){
+            return $this->respondWithSuccess('Files Deleted',CloudFile::destroy($id));
+        }else{
+            return $this->respondWithSuccess('file delete', CloudFile::find($id)->delete());
+        }
     }
 
     public function dropDir($dir = null){
         $user = auth()->user();
-        $dist = Storage::disk('gcs');
-        $dist->directories('kibb/bezop');
-        $delete=$dist->delete('kibb/bezop/damiz/1526992197_200w_(31).gif');
 
-        return dd($delete);
+       return dd($this->makeFolder('archived',$user->username));
     }
     public function trashFiles(){
 

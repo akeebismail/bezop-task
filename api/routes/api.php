@@ -19,6 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['middleware'=>'auth:api'], function (){
     Route::post('name-upload','FileController@uploadFile')->name('t-upload');
     Route::get('get-files-count','FileController@getFileCount');
+    Route::post('delete-files','FileController@deleteFile');
+    Route::get('get-files','FileController@getAllFiles');
 });
 Route::post('login','UserAuthenticationController@userLogin');
 Route::post('register','UserAuthenticationController@userRegister');
