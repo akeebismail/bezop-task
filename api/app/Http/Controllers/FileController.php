@@ -28,7 +28,7 @@ class FileController extends Controller
             foreach ($files as $item){
                 //$item->move($disk->put($dir.$item->getClientOriginalName(),))
                 $name = $item->getClientOriginalName();
-                $put =$disk->put($dir.'/'.$name,file_get_contents($item->getRealPath()));
+                $put =$disk->put($dir.'/'.$name,file_get_contents($item->getRealPath()),'public');
                 if ($put){
                     $c_file = new CloudFile();
                     $c_file->name = $name;
