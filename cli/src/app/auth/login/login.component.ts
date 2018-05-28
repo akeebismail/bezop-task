@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpService} from "../../services/http.service";
+import {AuthService} from "../../services/auth.service";
+import {APIResponse} from "../../interfaces/response";
+import {Router} from "@angular/router";
+import {NgxSpinnerService} from "ngx-spinner";
 
 @Component({
   selector: 'app-login',
@@ -10,9 +13,12 @@ export class LoginComponent implements OnInit {
 
     email = '';
     password = '';
+    errors = [];
+    errMsg = '';
 
-    constructor(private httpService: HttpService) {
-
+    constructor(private authService: AuthService,
+                private spinner: NgxSpinnerService,
+                private router: Router) {
     }
 
     ngOnInit() {
@@ -20,7 +26,25 @@ export class LoginComponent implements OnInit {
     }
 
     submitForm() {
-
+        this.spinner.show();
+        const data = {
+            email: this.email,
+            password: this.password
+        };
+        this.authService.login(data)
+            .subscribe((res: APIResponse) => {
+                if (!res.status) {
+                    this.spinner.hide();
+                    this.errMsg = 'Incorrect Credentials';
+                } else {
+                    this.spinner.hide();
+                    this.authService.saveUserDetails(res.data);
+                    this.router.navigate(['/dashboard']);
+                }
+            }, (err) => {
+                this.spinner.hide();
+                this.errors = err.error.errors;
+            })
     }
 
     inputsInvalid() {

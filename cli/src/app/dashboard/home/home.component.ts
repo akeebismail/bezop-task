@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {FileService} from "../../services/file.service";
+import {APIResponse} from "../../interfaces/response";
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+    active =  0;
+    trashed = 0;
+    total = 0;
 
-  ngOnInit() {
-  }
+    constructor(private fileService: FileService) { }
+
+    ngOnInit() {
+      this.fileService.getFilesCount()
+          .subscribe((res: APIResponse) => {
+              this.active = res.data.active;
+              this.trashed = res.data.trash;
+              this.total = this.active + this.trashed;
+          }, (err) => {
+
+          })
+    }
 
 }

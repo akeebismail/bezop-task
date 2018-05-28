@@ -5,11 +5,13 @@ import {RegisterComponent} from "./auth/register/register.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {HomeComponent} from "./dashboard/home/home.component";
 import {NgModule} from "@angular/core";
+import {TrashComponent} from "./dashboard/trash/trash.component";
+import {ActiveFilesComponent} from "./dashboard/active-files/active-files.component";
 
 const appRoutes: Routes = [
     {
         path: '',
-        redirectTo: 'login',
+        redirectTo: 'dashboard',
         pathMatch: 'full',
     },
     {
@@ -30,6 +32,12 @@ const appRoutes: Routes = [
             },
             {
                 path: 'home', component: HomeComponent
+            },
+            {
+                path: 'trash', component: TrashComponent
+            },
+            {
+                path: 'active', component: ActiveFilesComponent
             }
         ]
     }

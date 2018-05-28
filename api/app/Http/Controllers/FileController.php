@@ -15,14 +15,10 @@ class FileController extends Controller
         return $disk->makeDirectory($path);
     }
     public function uploadFile(Request $request){
-
-        $this->validate($request,[
-            'filename' =>'required'
-        ]);
         $user = auth()->user();
         $disk = Storage::disk('gcs');
-        if ($request->hasFile('filename')){
-            $files = $request->file('filename');
+        if ($request->hasFile('file0')){
+            $files = $request->all();
             $dir = 'kibb/bezop/'.$user->username;
             $results = [];
             foreach ($files as $item){
