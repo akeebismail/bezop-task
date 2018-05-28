@@ -35,10 +35,10 @@ class FileController extends Controller
         ]);
         $user = auth()->user();
         $disk = Storage::disk('gcs');
-        if ($request->hasFile('filename')){
-            $files = $request->file('filename');
-            $dir = 'kibb/bezop/'.$user->username; //user directories
-
+        if ($request->hasFile('file0')){
+            $files = $request->all();
+            $dir = 'kibb/bezop/'.$user->username;
+            $results = [];
             foreach ($files as $item){
                 $name = $item->getClientOriginalName();
                 $put =$disk->put($dir.'/'.$name,file_get_contents($item->getRealPath()),'public');
