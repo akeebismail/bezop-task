@@ -9,7 +9,6 @@ import {HomeComponent} from "./dashboard/home/home.component";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AuthGuardService} from "./services/auth-guard.service";
 import {HttpClientModule} from "@angular/common/http";
-import {NgxSpinnerModule} from "ngx-spinner";
 import { TrashComponent } from './dashboard/trash/trash.component';
 import { ActiveFilesComponent } from './dashboard/active-files/active-files.component';
 import {AuthService} from "./services/auth.service";
@@ -38,8 +37,7 @@ import { FileModalComponent } from './modals/file-modal/file-modal.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule,
-    NgxSpinnerModule
+    ReactiveFormsModule
   ],
   providers: [
     AuthService,

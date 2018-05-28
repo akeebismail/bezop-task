@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from "../../services/http.service";
 import {URLS} from "../../common/urls";
-import {NgxSpinnerService} from "ngx-spinner";
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
 import {APIResponse} from "../../interfaces/response";
@@ -21,7 +20,6 @@ export class RegisterComponent implements OnInit {
     errors = [];
 
     constructor(private httpService: HttpService,
-                private spinner: NgxSpinnerService,
                 private router: Router,
                 private authService: AuthService) { }
 
@@ -29,7 +27,6 @@ export class RegisterComponent implements OnInit {
     }
 
     submitForm() {
-        this.spinner.show();
         const data = {
             email: this.email,
             password: this.password,
@@ -38,11 +35,9 @@ export class RegisterComponent implements OnInit {
         };
         this.httpService.post(URLS.REGISTER, data)
             .subscribe((res: APIResponse) => {
-                this.spinner.hide();
                 this.authService.saveUserDetails(res.data);
                 this.router.navigate(['/dashboard']);
             }, (err) => {
-                this.spinner.hide();
                 this.processError(err.error.errors);
             });
     }
