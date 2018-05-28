@@ -12,6 +12,14 @@ use Illuminate\Http\Request;
 
 class UserAuthenticationController extends Controller{
 
+    /**
+     * User Login | Authentication
+     * Access token expires in 15days
+     * access_token and user details
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     *
+     */
     public function userLogin(Request $request){
         if (Auth::attempt(['email'=>$request->email,'password'=>$request->password])){
             $user = Auth::user();
@@ -23,6 +31,11 @@ class UserAuthenticationController extends Controller{
         }
     }
 
+    /**
+     * Register a new user
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function userRegister(Request $request){
         $this->validate($request,[
             'name' =>'required',
@@ -48,17 +61,35 @@ class UserAuthenticationController extends Controller{
 
     }
 
+    /**
+     * Refresh user access token
+     *
+     */
     public function refreshUserToken(){
         $user = auth()->user();
 
 
     }
 
+    /**
+     * Logout authenticated user
+     * revoke user access token
+     */
     public function logoutUser(){
-
+        $user = auth()->user();
+        $access_token = $user->token();
+        if ($access_token->revoke()){
+            return $this->respondWithSuccess('User Logged Successfully ');
+        }else{
+            return $this->respondWithError('Could not Log user');
+        }
     }
 
+    /**
+     * User Account Details
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function userDetails(){
-
+        return $this->respondWithSuccess('User Account Details',auth()->user());
     }
 }

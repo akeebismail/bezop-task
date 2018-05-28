@@ -9,12 +9,26 @@ use Illuminate\Support\Facades\Storage;
 
 class FileController extends Controller
 {
+
+    /**
+     * Make a directory for a user with the username
+     * @param $name | name of the directory
+     * @param null $username | username of the account name
+     * @return bool
+     */
     public function makeFolder($name, $username= null){
         $disk = Storage::disk('gcs');
         $path = $username ? $name.'/'.$username : $name;
         return $disk->makeDirectory($path);
     }
+
+    /**
+     * Upload User files to google cloud bucket
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function uploadFile(Request $request){
+        //filename is required
 
         $this->validate($request,[
             'filename' =>'required'
@@ -23,10 +37,9 @@ class FileController extends Controller
         $disk = Storage::disk('gcs');
         if ($request->hasFile('filename')){
             $files = $request->file('filename');
-            $dir = 'kibb/bezop/'.$user->username;
-            $results = [];
+            $dir = 'kibb/bezop/'.$user->username; //user directories
+
             foreach ($files as $item){
-                //$item->move($disk->put($dir.$item->getClientOriginalName(),))
                 $name = $item->getClientOriginalName();
                 $put =$disk->put($dir.'/'.$name,file_get_contents($item->getRealPath()),'public');
                 if ($put){
@@ -43,11 +56,20 @@ class FileController extends Controller
         return $this->respondWithError('No file Uploaded');
     }
 
+
+    /**
+     * @param null $id
+     * @return array
+     */
     public function getFile($id = null){
         $disk = Storage::disk('gcs');
         return $disk->allDirectories();
     }
 
+    /**
+     * get the count of files for a user
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function getFileCount(){
         $user = auth()->user();
         $cloud = CloudFile::where('user_id', $user->id);
@@ -58,6 +80,10 @@ class FileController extends Controller
             'active'=>$active,'trash'=>$trash]);
     }
 
+    /**
+     * get user uploaded files
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function getAllFiles(){
         $user = auth()->user();
         $cloud = CloudFile::where('user_id', $user->id);
@@ -68,6 +94,12 @@ class FileController extends Controller
             'active'=>$active,'trash'=>$trash]);
     }
 
+    /**
+     * delete user file(s)
+     * id is int|array
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function deleteFile(Request $request){
         $this->validate($request,[
             'id' => 'required'
@@ -80,14 +112,19 @@ class FileController extends Controller
         }
     }
 
+    /**
+     * drop a directory from bucket
+     * @param null $dir
+     */
     public function dropDir($dir = null){
         $user = auth()->user();
 
        return dd($this->makeFolder('archived',$user->username));
     }
-    public function trashFiles(){
+    public function restorFiles(Request $request){
+        $this->validate($request,[
+            'id' => 'required'
+        ]);
 
-    }
-    public function archived(){
     }
 }

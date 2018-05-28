@@ -21,10 +21,12 @@ Route::group(['middleware'=>'auth:api'], function (){
     Route::get('get-files-count','FileController@getFileCount');
     Route::post('delete-files','FileController@deleteFile');
     Route::get('get-files','FileController@getAllFiles');
+    Route::post('logout','UserAuthenticationController@logoutUser');
+    Route::get('user-details','UserAuthenticationController@userDetails');
 });
 Route::post('login','UserAuthenticationController@userLogin');
 Route::post('register','UserAuthenticationController@userRegister');
-Route::post('logout','UserAuthenticationController@userLogout');
+//Route::post('logout','UserAuthenticationController@userLogout');
 Route::post('refresh','UserAuthenticationController@refresh');
 
 

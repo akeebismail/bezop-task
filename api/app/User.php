@@ -28,4 +28,7 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    public function cloud_file(){
+        return $this->hasMany(CloudFile::class);
+    }
 }
