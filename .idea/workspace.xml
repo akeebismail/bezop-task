@@ -1,156 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bb59e2d-55c8-49ec-9ebf-ea203c6a87c3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/3rdpartylicenses.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.89889688147bd7575d63.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.fa2772327f55d8198301.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/main.79e3678875392f9222cc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/polyfills.2a57c932e506a627c5ed.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/runtime.a66f828dca56eeb90e02.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/scripts.0f9b499c6c68ee573e78.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/styles.9419f6d1d03de14e4ef0.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/app.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/app.yaml" afterPath="$PROJECT_DIR$/api/app.yaml" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/.editorconfig" afterPath="$PROJECT_DIR$/front-end/.editorconfig" />
-      <change beforePath="$PROJECT_DIR$/cli/.gitignore" afterPath="$PROJECT_DIR$/front-end/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/cli/README.md" afterPath="$PROJECT_DIR$/front-end/README.md" />
-      <change beforePath="$PROJECT_DIR$/cli/angular.json" afterPath="$PROJECT_DIR$/front-end/angular.json" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/protractor.conf.js" afterPath="$PROJECT_DIR$/front-end/e2e/protractor.conf.js" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/src/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/front-end/e2e/src/app.e2e-spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/src/app.po.ts" afterPath="$PROJECT_DIR$/front-end/e2e/src/app.po.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/tsconfig.e2e.json" afterPath="$PROJECT_DIR$/front-end/e2e/tsconfig.e2e.json" />
-      <change beforePath="$PROJECT_DIR$/cli/package-lock.json" afterPath="$PROJECT_DIR$/front-end/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/cli/package.json" afterPath="$PROJECT_DIR$/front-end/package.json" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.module.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.routes.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/animate.min.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/demo.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/demo.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/paper-dashboard.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/paper-dashboard.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/themify-icons.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/themify-icons.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.eot" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.2c454669bdf3aebf32a1.eot" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.svg" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.9c8e96ecc7fa01e6ebcd.svg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.ttf" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.e23a7dcaefbde4e74e26.ttf" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.woff" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.a1ecc3b826d01251eddd.woff" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/apple-icon.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/apple-icon.png" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/background.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/background.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-0.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-0.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-1.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-1.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-2.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-2.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-3.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-3.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/favicon.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/favicon.png" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/new_logo.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/new_logo.png" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/tim_80x80.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/tim_80x80.png" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap-checkbox-radio.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/bootstrap-checkbox-radio.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/bootstrap-notify.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/chartist.min.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/chartist.min.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/demo.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/demo.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/jquery-1.10.2.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/paper-dashboard.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/paper-dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper-dashboard.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper-dashboard.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_alerts.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_alerts.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_buttons.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_cards.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_cards.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_chartist.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_chartist.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_checkbox-radio.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_checkbox-radio.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_dropdown.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_dropdown.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_footers.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_footers.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_inputs.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_inputs.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_misc.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_misc.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_mixins.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_mixins.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_navbars.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_navbars.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_responsive.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_responsive.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_sidebar-and-main-panel.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_tables.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_tables.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_typography.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_variables.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_cards.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_cards.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_chartist.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_icons.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_icons.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_inputs.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_labels.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_labels.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_navbars.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_sidebar.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_sidebar.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_tabs.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_transparency.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_vendor-prefixes.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/common/urls.ts" afterPath="$PROJECT_DIR$/front-end/src/app/common/urls.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/interfaces/response.ts" afterPath="$PROJECT_DIR$/front-end/src/app/interfaces/response.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/interfaces/uploade-file.ts" afterPath="$PROJECT_DIR$/front-end/src/app/interfaces/uploade-file.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/material.design.ts" afterPath="$PROJECT_DIR$/front-end/src/app/material.design.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth-guard.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth-guard.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/file.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/file.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/file.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/file.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/http.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/http.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/http.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/http.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/modal.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/modal.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/modal.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/modal.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/assets/.gitkeep" afterPath="$PROJECT_DIR$/front-end/src/assets/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/cli/src/browserslist" afterPath="$PROJECT_DIR$/front-end/src/browserslist" />
-      <change beforePath="$PROJECT_DIR$/cli/src/environments/environment.prod.ts" afterPath="$PROJECT_DIR$/front-end/src/environments/environment.prod.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/environments/environment.ts" afterPath="$PROJECT_DIR$/front-end/src/environments/environment.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/favicon.ico" afterPath="$PROJECT_DIR$/api/public/dist/cli/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/cli/src/index.html" afterPath="$PROJECT_DIR$/front-end/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/karma.conf.js" afterPath="$PROJECT_DIR$/front-end/src/karma.conf.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/main.ts" afterPath="$PROJECT_DIR$/front-end/src/main.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/polyfills.ts" afterPath="$PROJECT_DIR$/front-end/src/polyfills.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/styles.css" afterPath="$PROJECT_DIR$/front-end/src/styles.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/test.ts" afterPath="$PROJECT_DIR$/front-end/src/test.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/tsconfig.app.json" afterPath="$PROJECT_DIR$/front-end/src/tsconfig.app.json" />
-      <change beforePath="$PROJECT_DIR$/cli/src/tsconfig.spec.json" afterPath="$PROJECT_DIR$/front-end/src/tsconfig.spec.json" />
-      <change beforePath="$PROJECT_DIR$/cli/src/tslint.json" afterPath="$PROJECT_DIR$/front-end/src/tslint.json" />
-      <change beforePath="$PROJECT_DIR$/cli/tsconfig.json" afterPath="$PROJECT_DIR$/front-end/tsconfig.json" />
-      <change beforePath="$PROJECT_DIR$/cli/tslint.json" afterPath="$PROJECT_DIR$/front-end/tslint.json" />
-    </list>
+    <list default="true" id="2bb59e2d-55c8-49ec-9ebf-ea203c6a87c3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,10 +55,20 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+                <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -254,16 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtime.a66f828dca56eeb90e02.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/dist/cli/runtime.a66f828dca56eeb90e02.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -296,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/cli/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/api/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php" />
         <option value="$PROJECT_DIR$/api/app/Http/Controllers/Controller.php" />
@@ -328,6 +178,7 @@
         <option value="$PROJECT_DIR$/api/app.yaml" />
         <option value="$PROJECT_DIR$/api/public/.htaccess" />
         <option value="$PROJECT_DIR$/cli/app.yaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -520,15 +371,16 @@
       <workItem from="1527488759411" duration="7765000" />
       <workItem from="1527501251980" duration="5949000" />
       <workItem from="1527510985580" duration="4380000" />
-      <workItem from="1527521627082" duration="10073000" />
+      <workItem from="1527521627082" duration="11143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90635000" />
+    <option name="totallyTimeSpent" value="91705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -539,7 +391,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50159234" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50159234" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -587,13 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -962,11 +807,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
