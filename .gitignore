@@ -7,8 +7,8 @@
 /api/.idea
 /api/.vscode
 /api/.vagrant
-/apiHomestead.json
+/api/Homestead.json
 /api/Homestead.yaml
 /api/npm-debug.log
 /api/yarn-error.log
-/api.env
+/api/.env

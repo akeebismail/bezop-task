@@ -2,10 +2,154 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb59e2d-55c8-49ec-9ebf-ea203c6a87c3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/3rdpartylicenses.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.89889688147bd7575d63.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/glyphicons-halflings-regular.fa2772327f55d8198301.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/main.79e3678875392f9222cc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/polyfills.2a57c932e506a627c5ed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/runtime.a66f828dca56eeb90e02.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/scripts.0f9b499c6c68ee573e78.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/public/dist/cli/styles.9419f6d1d03de14e4ef0.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/app.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/app/assets/fonts/themify.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/front-end/src/favicon.ico" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/app/Http/Controllers/FileController.php" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/FileController.php" />
-      <change beforePath="$PROJECT_DIR$/api/routes/api.php" afterPath="$PROJECT_DIR$/api/routes/api.php" />
-      <change beforePath="$PROJECT_DIR$/cli/package-lock.json" afterPath="$PROJECT_DIR$/cli/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/api/app.yaml" afterPath="$PROJECT_DIR$/api/app.yaml" />
+      <change beforePath="$PROJECT_DIR$/app.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cli/.editorconfig" afterPath="$PROJECT_DIR$/front-end/.editorconfig" />
+      <change beforePath="$PROJECT_DIR$/cli/.gitignore" afterPath="$PROJECT_DIR$/front-end/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/cli/README.md" afterPath="$PROJECT_DIR$/front-end/README.md" />
+      <change beforePath="$PROJECT_DIR$/cli/angular.json" afterPath="$PROJECT_DIR$/front-end/angular.json" />
+      <change beforePath="$PROJECT_DIR$/cli/e2e/protractor.conf.js" afterPath="$PROJECT_DIR$/front-end/e2e/protractor.conf.js" />
+      <change beforePath="$PROJECT_DIR$/cli/e2e/src/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/front-end/e2e/src/app.e2e-spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/e2e/src/app.po.ts" afterPath="$PROJECT_DIR$/front-end/e2e/src/app.po.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/e2e/tsconfig.e2e.json" afterPath="$PROJECT_DIR$/front-end/e2e/tsconfig.e2e.json" />
+      <change beforePath="$PROJECT_DIR$/cli/package-lock.json" afterPath="$PROJECT_DIR$/front-end/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/cli/package.json" afterPath="$PROJECT_DIR$/front-end/package.json" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/app.module.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/front-end/src/app/app.routes.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/animate.min.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/demo.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/demo.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/paper-dashboard.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/paper-dashboard.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/themify-icons.css" afterPath="$PROJECT_DIR$/front-end/src/app/assets/css/themify-icons.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.eot" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.2c454669bdf3aebf32a1.eot" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.svg" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.9c8e96ecc7fa01e6ebcd.svg" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.ttf" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.e23a7dcaefbde4e74e26.ttf" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/fonts/themify.woff" afterPath="$PROJECT_DIR$/api/public/dist/cli/themify.a1ecc3b826d01251eddd.woff" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/apple-icon.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/apple-icon.png" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/background.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/background.jpg" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-0.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-0.jpg" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-1.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-2.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-2.jpg" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-3.jpg" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/faces/face-3.jpg" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/favicon.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/favicon.png" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/new_logo.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/new_logo.png" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/tim_80x80.png" afterPath="$PROJECT_DIR$/front-end/src/app/assets/img/tim_80x80.png" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap-checkbox-radio.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/bootstrap-checkbox-radio.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/bootstrap-notify.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/chartist.min.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/chartist.min.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/demo.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/demo.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/jquery-1.10.2.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/paper-dashboard.js" afterPath="$PROJECT_DIR$/front-end/src/app/assets/js/paper-dashboard.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper-dashboard.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper-dashboard.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_alerts.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_alerts.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_buttons.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_buttons.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_cards.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_cards.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_chartist.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_chartist.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_checkbox-radio.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_checkbox-radio.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_dropdown.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_dropdown.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_footers.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_footers.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_inputs.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_inputs.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_misc.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_misc.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_mixins.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_navbars.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_navbars.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_responsive.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_responsive.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_sidebar-and-main-panel.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_tables.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_tables.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_typography.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_typography.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_variables.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_buttons.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_cards.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_cards.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_chartist.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_icons.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_inputs.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_labels.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_labels.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_navbars.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_sidebar.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_sidebar.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_tabs.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_transparency.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/front-end/src/app/assets/sass/paper/mixins/_vendor-prefixes.scss" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/login/login.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/auth/register/register.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/common/urls.ts" afterPath="$PROJECT_DIR$/front-end/src/app/common/urls.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/active-files/active-files.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/active-files/active-files.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/dashboard.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/home/home.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/trash/trash.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/dashboard/trash/trash.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/interfaces/response.ts" afterPath="$PROJECT_DIR$/front-end/src/app/interfaces/response.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/interfaces/uploade-file.ts" afterPath="$PROJECT_DIR$/front-end/src/app/interfaces/uploade-file.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/material.design.ts" afterPath="$PROJECT_DIR$/front-end/src/app/material.design.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.css" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.html" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/modals/file-modal/file-modal.component.ts" afterPath="$PROJECT_DIR$/front-end/src/app/modals/file-modal/file-modal.component.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth-guard.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth-guard.service.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/auth.service.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/file.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/file.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/file.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/file.service.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/http.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/http.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/http.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/http.service.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/modal.service.spec.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/modal.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/app/services/modal.service.ts" afterPath="$PROJECT_DIR$/front-end/src/app/services/modal.service.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/assets/.gitkeep" afterPath="$PROJECT_DIR$/front-end/src/assets/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/cli/src/browserslist" afterPath="$PROJECT_DIR$/front-end/src/browserslist" />
+      <change beforePath="$PROJECT_DIR$/cli/src/environments/environment.prod.ts" afterPath="$PROJECT_DIR$/front-end/src/environments/environment.prod.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/environments/environment.ts" afterPath="$PROJECT_DIR$/front-end/src/environments/environment.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/favicon.ico" afterPath="$PROJECT_DIR$/api/public/dist/cli/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/cli/src/index.html" afterPath="$PROJECT_DIR$/front-end/src/index.html" />
+      <change beforePath="$PROJECT_DIR$/cli/src/karma.conf.js" afterPath="$PROJECT_DIR$/front-end/src/karma.conf.js" />
+      <change beforePath="$PROJECT_DIR$/cli/src/main.ts" afterPath="$PROJECT_DIR$/front-end/src/main.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/polyfills.ts" afterPath="$PROJECT_DIR$/front-end/src/polyfills.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/styles.css" afterPath="$PROJECT_DIR$/front-end/src/styles.css" />
+      <change beforePath="$PROJECT_DIR$/cli/src/test.ts" afterPath="$PROJECT_DIR$/front-end/src/test.ts" />
+      <change beforePath="$PROJECT_DIR$/cli/src/tsconfig.app.json" afterPath="$PROJECT_DIR$/front-end/src/tsconfig.app.json" />
+      <change beforePath="$PROJECT_DIR$/cli/src/tsconfig.spec.json" afterPath="$PROJECT_DIR$/front-end/src/tsconfig.spec.json" />
+      <change beforePath="$PROJECT_DIR$/cli/src/tslint.json" afterPath="$PROJECT_DIR$/front-end/src/tslint.json" />
+      <change beforePath="$PROJECT_DIR$/cli/tsconfig.json" afterPath="$PROJECT_DIR$/front-end/tsconfig.json" />
+      <change beforePath="$PROJECT_DIR$/cli/tslint.json" afterPath="$PROJECT_DIR$/front-end/tslint.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,86 +169,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/FileController.php">
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="132" column="47" lean-forward="false" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
+            <state relative-caret-position="78">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAuthenticationController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/UserAuthenticationController.php">
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-              <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <element signature="e#118#127#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudFile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/app/CloudFile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="52">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/app/User.php">
+      <file leaf-file-name="bezop-kibb-ae5d450a7301.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/storage/bezop-kibb-ae5d450a7301.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="browserslist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/browserslist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/public/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
-                <element signature="e#23#68#0#PHP" expanded="true" />
+                <marker date="1527537975186" expanded="true" signature="0:592" ph="&lt;IfModule mod_rewrite.c&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/routes/api.php">
+      <file leaf-file-name="runtime.a66f828dca56eeb90e02.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/dist/cli/runtime.a66f828dca56eeb90e02.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Auth/Events/Logout.php">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializesModels.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1456">
-              <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reflection.php" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Reflection/Reflection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41444">
-              <caret line="1594" column="20" lean-forward="false" selection-start-line="1594" selection-start-column="20" selection-end-line="1594" selection-end-column="20" />
+            <state relative-caret-position="-766">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,7 +304,6 @@
         <option value="$PROJECT_DIR$/api/app/AppTrait/AppResponse.php" />
         <option value="$PROJECT_DIR$/api/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/api/composer.json" />
-        <option value="$PROJECT_DIR$/api/app.yaml" />
         <option value="$PROJECT_DIR$/api/.env" />
         <option value="$PROJECT_DIR$/api/config/app.php" />
         <option value="$PROJECT_DIR$/api/storage/service-account.json" />
@@ -162,6 +325,9 @@
         <option value="$PROJECT_DIR$/api/app/User.php" />
         <option value="$PROJECT_DIR$/api/routes/api.php" />
         <option value="$PROJECT_DIR$/api/app/Http/Controllers/FileController.php" />
+        <option value="$PROJECT_DIR$/api/app.yaml" />
+        <option value="$PROJECT_DIR$/api/public/.htaccess" />
+        <option value="$PROJECT_DIR$/cli/app.yaml" />
       </list>
     </option>
   </component>
@@ -172,7 +338,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/cli/node_modules" />
+    <handled-path value="$PROJECT_DIR$/front-end/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -295,37 +461,6 @@
               <item name="google" type="b2602c69:ProjectViewProjectNode" />
               <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cli" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -340,7 +475,11 @@
     <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/cli/node_modules/tslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cli" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/public" />
       <recent name="$PROJECT_DIR$/api/storage" />
     </key>
   </component>
@@ -380,29 +519,29 @@
       <workItem from="1527449280178" duration="11817000" />
       <workItem from="1527488759411" duration="7765000" />
       <workItem from="1527501251980" duration="5949000" />
-      <workItem from="1527510985580" duration="3578000" />
+      <workItem from="1527510985580" duration="4380000" />
+      <workItem from="1527521627082" duration="10073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79760000" />
+    <option name="totallyTimeSpent" value="90635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2977273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6130573" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50159234" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -448,83 +587,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/app/services/auth-guard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Facades/File.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/public/kibb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/vendor/superbalist/laravel-google-cloud-storage/src/GoogleCloudStorageServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -649,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,13 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -678,13 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="68" column="63" lean-forward="false" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/storage/bezop-kibb-ae5d450a7301.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -721,7 +768,7 @@
         <state relative-caret-position="-130">
           <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
+            <element signature="e#6#86#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,13 +824,13 @@
         <state relative-caret-position="494">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#23#68#0#PHP" expanded="true" />
+            <element signature="e#23#68#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cli/node_modules/ngx-spinner/ngx-spinner.d.ts" />
-    <entry file="file://$PROJECT_DIR$/cli/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/front-end/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -795,15 +842,15 @@
         <state relative-caret-position="2106">
           <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
           <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <element signature="e#118#127#0#PHP" expanded="true" />
+            <element signature="e#6#85#0#PHP" expanded="false" />
+            <element signature="e#118#127#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="650">
           <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding />
         </state>
@@ -814,6 +861,115 @@
         <state relative-caret-position="104">
           <caret line="132" column="47" lean-forward="false" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/dist/cli/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/dist/cli/runtime.a66f828dca56eeb90e02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/public/dist/cli/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/browserslist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <marker date="1527537975186" expanded="true" signature="0:592" ph="&lt;IfModule mod_rewrite.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/storage/bezop-kibb-ae5d450a7301.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
