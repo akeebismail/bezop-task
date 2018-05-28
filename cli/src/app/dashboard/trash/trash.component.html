@@ -9,6 +9,9 @@
             </div>
             <div class="content table-responsive table-full-width">
                 <span class="text-center error-text" *ngIf="error"> ** An error occured from the server ** </span>
+                <div class="alert alert-success" *ngIf="successMsg">
+                    <span>{{successMsg}}</span>
+                </div>
                 <table class="table table-striped">
                     <thead>
                     <tr>

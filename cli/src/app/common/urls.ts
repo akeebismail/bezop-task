@@ -6,5 +6,6 @@ export const URLS = {
     FILE_COUNT: BASE_URL + '/get-files-count',
     FILE_UPLOAD: BASE_URL + '/name-upload',
     GET_FILES: BASE_URL + '/get-files',
-    MOVE_TO_TRASH: BASE_URL + '/delete-files'
+    MOVE_TO_TRASH: BASE_URL + '/delete-files',
+    RESTORE_FILES: BASE_URL + '/restore-files'
 };

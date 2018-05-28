@@ -25,6 +25,10 @@ export class FileService {
         return this.httpService.post(URLS.MOVE_TO_TRASH, data);
     }
 
+    retrieveFromTrash(data) {
+        return this.httpService.post(URLS.RESTORE_FILES, data);
+    }
+
     uploadFiles(files) {
         let formData = new FormData();
         for (let i = 0; i< files.length; i++) {

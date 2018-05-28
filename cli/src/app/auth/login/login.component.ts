@@ -24,6 +24,7 @@ export class LoginComponent implements OnInit {
     }
 
     submitForm() {
+        this.errMsg = '';
         const data = {
             email: this.email,
             password: this.password

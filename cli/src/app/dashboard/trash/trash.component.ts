@@ -12,6 +12,7 @@ export class TrashComponent implements OnInit {
     toRestore = [];
     files: any;
     error = false;
+    successMsg = '';
 
     constructor(private fileService: FileService) { }
 
@@ -38,7 +39,21 @@ export class TrashComponent implements OnInit {
     }
 
     restore() {
+        const data = {id: this.toRestore};
+        this.fileService.retrieveFromTrash(data)
+            .subscribe((res: APIResponse) => {
+                this.fetchTrashedFiles();
+                this.displaySuccess('Successfully restored');
+            }, (err) => {
+                this.error = true;
+            })
+    }
 
+    displaySuccess(msg) {
+        this.successMsg = msg;
+        setTimeout(() => {
+            this.successMsg = '';
+        }, 2000)
     }
 
     getFileType(name): string {
