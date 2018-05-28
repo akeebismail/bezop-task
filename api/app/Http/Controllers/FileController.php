@@ -29,10 +29,6 @@ class FileController extends Controller
      */
     public function uploadFile(Request $request){
         //filename is required
-
-        $this->validate($request,[
-            'filename' =>'required'
-        ]);
         $user = auth()->user();
         $disk = Storage::disk('gcs');
         if ($request->hasFile('file0')){
@@ -121,10 +117,22 @@ class FileController extends Controller
 
        return dd($this->makeFolder('archived',$user->username));
     }
-    public function restorFiles(Request $request){
+    public function restoreFile(Request $request){
         $this->validate($request,[
             'id' => 'required'
         ]);
+        $id  = $request->id;
 
+        if (is_array($id)){
+            foreach ($id as $item){
+                $file =CloudFile::where('id',$item);
+                 $file->exists() && $file->first()->trashed() ? : $file->restore() ;
+            }
+        }else{
+            $file = CloudFile::where('id',$id);
+            $file->exists() && $file->first()->trashed()? : $file->restore();
+        }
+
+        return $this->respondWithSuccess('File(s) Restore successfully');
     }
 }

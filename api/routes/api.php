@@ -23,6 +23,7 @@ Route::group(['middleware'=>'auth:api'], function (){
     Route::get('get-files','FileController@getAllFiles');
     Route::post('logout','UserAuthenticationController@logoutUser');
     Route::get('user-details','UserAuthenticationController@userDetails');
+    Route::post('restore-files','FileController@restoreFile');
 });
 Route::post('login','UserAuthenticationController@userLogin');
 Route::post('register','UserAuthenticationController@userRegister');

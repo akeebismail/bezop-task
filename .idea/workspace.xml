@@ -2,105 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb59e2d-55c8-49ec-9ebf-ea203c6a87c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/.gitignore" afterPath="$PROJECT_DIR$/api/.gitignore" />
       <change beforePath="$PROJECT_DIR$/api/app/Http/Controllers/FileController.php" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/FileController.php" />
-      <change beforePath="$PROJECT_DIR$/api/app/Http/Controllers/UserAuthenticationController.php" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/UserAuthenticationController.php" />
-      <change beforePath="$PROJECT_DIR$/api/app/User.php" afterPath="$PROJECT_DIR$/api/app/User.php" />
-      <change beforePath="$PROJECT_DIR$/api/database/migrations/2018_05_27_212517_add_name_to_cloud_files_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2018_05_27_212517_add_name_to_cloud_files_table.php" />
       <change beforePath="$PROJECT_DIR$/api/routes/api.php" afterPath="$PROJECT_DIR$/api/routes/api.php" />
-      <change beforePath="$PROJECT_DIR$/cli/.editorconfig" afterPath="$PROJECT_DIR$/cli/.editorconfig" />
-      <change beforePath="$PROJECT_DIR$/cli/.gitignore" afterPath="$PROJECT_DIR$/cli/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/cli/README.md" afterPath="$PROJECT_DIR$/cli/README.md" />
-      <change beforePath="$PROJECT_DIR$/cli/angular.json" afterPath="$PROJECT_DIR$/cli/angular.json" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/protractor.conf.js" afterPath="$PROJECT_DIR$/cli/e2e/protractor.conf.js" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/src/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/cli/e2e/src/app.e2e-spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/src/app.po.ts" afterPath="$PROJECT_DIR$/cli/e2e/src/app.po.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/e2e/tsconfig.e2e.json" afterPath="$PROJECT_DIR$/cli/e2e/tsconfig.e2e.json" />
       <change beforePath="$PROJECT_DIR$/cli/package-lock.json" afterPath="$PROJECT_DIR$/cli/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/cli/package.json" afterPath="$PROJECT_DIR$/cli/package.json" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.css" afterPath="$PROJECT_DIR$/cli/src/app/app.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.html" afterPath="$PROJECT_DIR$/cli/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/app.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.component.ts" afterPath="$PROJECT_DIR$/cli/src/app/app.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.module.ts" afterPath="$PROJECT_DIR$/cli/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/cli/src/app/app.routes.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/cli/src/app/assets/css/animate.min.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/cli/src/app/assets/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/demo.css" afterPath="$PROJECT_DIR$/cli/src/app/assets/css/demo.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/css/paper-dashboard.css" afterPath="$PROJECT_DIR$/cli/src/app/assets/css/paper-dashboard.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/background.jpg" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/background.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-0.jpg" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-0.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-1.jpg" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-1.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-2.jpg" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-2.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-3.jpg" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/faces/face-3.jpg" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/new_logo.png" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/new_logo.png" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/img/tim_80x80.png" afterPath="$PROJECT_DIR$/cli/src/app/assets/img/tim_80x80.png" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap-checkbox-radio.js" afterPath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap-checkbox-radio.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/cli/src/app/assets/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/cli/src/app/assets/js/jquery-1.10.2.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/js/paper-dashboard.js" afterPath="$PROJECT_DIR$/cli/src/app/assets/js/paper-dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_alerts.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_alerts.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_cards.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_cards.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_chartist.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_chartist.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_checkbox-radio.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_checkbox-radio.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_dropdown.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_dropdown.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_footers.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_footers.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_mixins.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_mixins.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_navbars.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_navbars.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_responsive.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_responsive.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_tables.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_tables.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_typography.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_variables.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_cards.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_cards.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_chartist.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_icons.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_icons.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_inputs.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_labels.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_labels.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_navbars.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_sidebar.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_sidebar.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_tabs.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_transparency.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/cli/src/app/assets/sass/paper/mixins/_vendor-prefixes.scss" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.css" afterPath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.html" afterPath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.ts" afterPath="$PROJECT_DIR$/cli/src/app/auth/login/login.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.css" afterPath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.html" afterPath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.ts" afterPath="$PROJECT_DIR$/cli/src/app/auth/register/register.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/common/urls.ts" afterPath="$PROJECT_DIR$/cli/src/app/common/urls.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.css" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.html" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/dashboard.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.css" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.html" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.ts" afterPath="$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.ts" afterPath="$PROJECT_DIR$/cli/src/app/services/auth-guard.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/http.service.spec.ts" afterPath="$PROJECT_DIR$/cli/src/app/services/http.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/app/services/http.service.ts" afterPath="$PROJECT_DIR$/cli/src/app/services/http.service.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/assets/.gitkeep" afterPath="$PROJECT_DIR$/cli/src/assets/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/cli/src/browserslist" afterPath="$PROJECT_DIR$/cli/src/browserslist" />
-      <change beforePath="$PROJECT_DIR$/cli/src/environments/environment.prod.ts" afterPath="$PROJECT_DIR$/cli/src/environments/environment.prod.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/environments/environment.ts" afterPath="$PROJECT_DIR$/cli/src/environments/environment.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/favicon.ico" afterPath="$PROJECT_DIR$/cli/src/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/cli/src/index.html" afterPath="$PROJECT_DIR$/cli/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/cli/src/karma.conf.js" afterPath="$PROJECT_DIR$/cli/src/karma.conf.js" />
-      <change beforePath="$PROJECT_DIR$/cli/src/main.ts" afterPath="$PROJECT_DIR$/cli/src/main.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/polyfills.ts" afterPath="$PROJECT_DIR$/cli/src/polyfills.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/styles.css" afterPath="$PROJECT_DIR$/cli/src/styles.css" />
-      <change beforePath="$PROJECT_DIR$/cli/src/test.ts" afterPath="$PROJECT_DIR$/cli/src/test.ts" />
-      <change beforePath="$PROJECT_DIR$/cli/src/tsconfig.app.json" afterPath="$PROJECT_DIR$/cli/src/tsconfig.app.json" />
-      <change beforePath="$PROJECT_DIR$/cli/src/tsconfig.spec.json" afterPath="$PROJECT_DIR$/cli/src/tsconfig.spec.json" />
-      <change beforePath="$PROJECT_DIR$/cli/src/tslint.json" afterPath="$PROJECT_DIR$/cli/src/tslint.json" />
-      <change beforePath="$PROJECT_DIR$/cli/tsconfig.json" afterPath="$PROJECT_DIR$/cli/tsconfig.json" />
-      <change beforePath="$PROJECT_DIR$/cli/tslint.json" afterPath="$PROJECT_DIR$/cli/tslint.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -120,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/FileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="132" column="47" lean-forward="false" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -133,7 +38,7 @@
       <file leaf-file-name="UserAuthenticationController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/UserAuthenticationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="2106">
               <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
@@ -147,18 +52,20 @@
         <entry file="file://$PROJECT_DIR$/api/app/CloudFile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="494">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,28 +73,8 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatefulGuard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionGuard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="497" column="51" lean-forward="true" selection-start-line="497" selection-start-column="51" selection-end-line="497" selection-end-column="51" />
+            <state relative-caret-position="430">
+              <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -206,8 +93,8 @@
       <file leaf-file-name="SerializesModels.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="1456">
+              <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -216,7 +103,7 @@
       <file leaf-file-name="Reflection.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Reflection/Reflection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26247">
+            <state relative-caret-position="41444">
               <caret line="1594" column="20" lean-forward="false" selection-start-line="1594" selection-start-column="20" selection-end-line="1594" selection-end-column="20" />
               <folding />
             </state>
@@ -238,7 +125,6 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -272,9 +158,9 @@
         <option value="$PROJECT_DIR$/api/app/CloudFile.php" />
         <option value="$PROJECT_DIR$/api/.env.example" />
         <option value="$PROJECT_DIR$/api/.gitignore" />
-        <option value="$PROJECT_DIR$/api/routes/api.php" />
         <option value="$PROJECT_DIR$/api/app/Http/Controllers/UserAuthenticationController.php" />
         <option value="$PROJECT_DIR$/api/app/User.php" />
+        <option value="$PROJECT_DIR$/api/routes/api.php" />
         <option value="$PROJECT_DIR$/api/app/Http/Controllers/FileController.php" />
       </list>
     </option>
@@ -400,14 +286,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="google" type="b2602c69:ProjectViewProjectNode" />
               <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="google" type="b2602c69:ProjectViewProjectNode" />
@@ -467,17 +379,19 @@
       <workItem from="1527438977323" duration="315000" />
       <workItem from="1527449280178" duration="11817000" />
       <workItem from="1527488759411" duration="7765000" />
+      <workItem from="1527501251980" duration="5949000" />
+      <workItem from="1527510985580" duration="3578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70233000" />
+    <option name="totallyTimeSpent" value="79760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-55" y="24" width="1368" height="780" extended-state="6" />
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28863636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2977273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6130573" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
@@ -486,7 +400,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6130573" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -504,15 +418,15 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6130573" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6130573" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.4969697" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2977273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -534,20 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cli/src/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cli/src/app/dashboard/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -764,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
           <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="68" column="63" lean-forward="false" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,31 +728,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="1586">
           <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="497" column="51" lean-forward="true" selection-start-line="497" selection-start-column="51" selection-end-line="497" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="12610">
+          <caret line="497" column="51" lean-forward="false" selection-start-line="497" selection-start-column="51" selection-end-line="497" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="1456">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Reflection/Reflection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26247">
+        <state relative-caret-position="41444">
           <caret line="1594" column="20" lean-forward="false" selection-start-line="1594" selection-start-column="20" selection-end-line="1594" selection-end-column="20" />
           <folding />
         </state>
@@ -874,17 +764,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/api/app/CloudFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state relative-caret-position="286">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/node_modules/ngx-spinner/ngx-spinner.d.ts" />
+    <entry file="file://$PROJECT_DIR$/cli/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/UserAuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="2106">
           <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
@@ -893,26 +801,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/CloudFile.php">
+    <entry file="file://$PROJECT_DIR$/api/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="430">
+          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/FileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="132" column="47" lean-forward="false" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
           <folding />
         </state>
       </provider>
